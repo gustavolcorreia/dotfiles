@@ -34,7 +34,9 @@ call vundle#begin()
     Plugin 'ctrlpvim/ctrlp.vim'
 
     Plugin 'sheerun/vim-polyglot'
-   
+    Plugin 'tmux-plugins/vim-tmux'
+    Plugin 'tmux-plugins/vim-tmux-focus-events'
+
 "################## **  Put your plugins before this line. ** ##################
 
 call vundle#end()                                               " ** required **
@@ -195,10 +197,10 @@ let g:ctrlp_custom_ignore = {
 " Source the .vimrc or _vimrc file, depending on system
 if &term == "win32" || "pcterm" || has("gui_win32")
 	map ,v :e $HOME/_vimrc<CR>
-	nmap <F12> :<C-u>source ~/_vimrc <BAR> echo "Reloading .vimrc!!!"<CR>
+	nmap <F11> :<C-u>source ~/_vimrc <BAR> echo "Reloading .vimrc!!!"<CR>
 else
 	map ,v :e $HOME/.vimrc<CR>
-	nmap <F12> :<C-u>source ~/.vimrc <BAR> echo "Reloading .vimrc!!!"<CR>
+	nmap <F11> :<C-u>source ~/.vimrc <BAR> echo "Reloading .vimrc!!!"<CR>
 endif
 "###############################################################################
 
