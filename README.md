@@ -14,7 +14,7 @@ __<prefix\>__ c|Create new window.
 __<prefix\>__  r|Rename current window.
 __<prefix\>__  R|Rename current session.
 __<prefix\>__  -|Split new pane horizontally.
-__<prefix\>__  \|Split new pane vertically.
+__<prefix\>__  \||Split new pane vertically.
 __<prefix\>__  <|Moves the window position to the left.
 __<prefix\>__  >|Moves the window position to the right.
 Alt + ←|Select pane on the left.
@@ -27,7 +27,7 @@ __<prefix\>__  Ctrl  + ↑|Resize pane to the top.
 __<prefix\>__  Ctrl  + ↓|Resize pane to the bottom.
 __<prefix\>__  Tab| Switch to most recently used window.
 __<prefix\>__  L|Link window from another session by entering target session and window reference.
-__<prefix\>__ \\|Swap panes back and forth with 1st pane. When in main-horizontal or main-vertical layout, the main panel is always at index 1. This keybinding let you swap secondary pane with main one, and do the opposite.
+__<prefix\>__ \\ |Swap panes back and forth with 1st pane. When in main-horizontal or main-vertical layout, the main panel is always at index 1. This keybinding let you swap secondary pane with main one, and do the opposite.
 __<prefix\>__  Ctrl + o|Swap current active pane with next one.
 __<prefix\>__ +|Toggle zoom for current pane.
 __<prefix\>__  x|Kill current pane.
